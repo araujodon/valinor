@@ -1,0 +1,47 @@
+
+
+.d-flex{
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.d-flex input:focus{
+outline: none;
+}
+
+.cardPai {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 30px;
+}
+
+.card-header {
+    background-color: rgb(186, 68, 216);
+    color: white;
+}
+
+.list-group-item {
+    color: rgb(186, 68, 216);
+}
+
+
+
+.btn-outline-success {
+    color: white;
+    border-color: rgb(186, 68, 216);
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: rgb(186, 68, 216);
+    border-color: rgb(186, 68, 216);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
